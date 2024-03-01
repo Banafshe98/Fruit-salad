@@ -1,0 +1,19 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+}
+nav .navmenu{
+    list-style: none;
+}
+nav .navleft{
+    font-size: 30px;
+    font-weight: 100;
+}
