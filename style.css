@@ -9,20 +9,31 @@ nav{
     list-style: none;
     justify-content: space-around;
     width: 100%;
+    margin-top: 22px;
 }
 nav .navmenu{
     list-style: none;
+    display: flex;
+    align-items: center;
+    gap:45px;
 }
 nav .navleft{
     font-size: 30px;
     font-weight: 100;
 }
 nav .navright{
-    padding: 10px 20px;
+    padding: 12px 30px;
     background: #FB9333;
-    font-size: 20px;
-    border-radius: 50px;
     color: white;
     cursor: pointer;
     transition: all 500ms;
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 94px;
+    font-size: 18px;
+}
+nav .navright:hover{
+    transition: all 500ms;
+    width:105px;
 }
