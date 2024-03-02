@@ -17,3 +17,12 @@ nav .navleft{
     font-size: 30px;
     font-weight: 100;
 }
+nav .navright{
+    padding: 10px 20px;
+    background: #FB9333;
+    font-size: 20px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    transition: all 500ms;
+}
