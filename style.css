@@ -41,6 +41,10 @@ nav .navmenu{
     font-family: poppinR;
     text-decoration: none;
 }
+.navmenu > li{
+    color: black;
+    text-decoration: none;
+}
 nav .navleft{
     font-size: 24px;
     font-family: poppinB;
@@ -120,10 +124,16 @@ nav .navright:hover{
     margin-top: 100px;
     font-family: poppinM;
 }
-.numbers > div{
+.numbers > p{
     transition: all 500ms;
 }
-.numbers > div:hover{
+.numbers > p:hover{
 color: #FB9333;
-scale:1.2;
+scale:1.4;
+transition: all 500ms;
+}
+.header-pic{
+    height: 819px;
+    width: 668px;
+    display:flex;
 }
