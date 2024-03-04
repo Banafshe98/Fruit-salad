@@ -41,7 +41,7 @@ nav .navmenu{
     font-family: poppinR;
     text-decoration: none;
 }
-.navmenu > li{
+a{
     color: black;
     text-decoration: none;
 }
@@ -176,4 +176,13 @@ scale:1.4;
     font-weight: 400;
     line-height: 18px;
     text-align: center;
+}
+.pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 66px;
+}
+.icon1{
+border-radius: 10px;
 }
