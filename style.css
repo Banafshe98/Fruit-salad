@@ -75,6 +75,7 @@ nav .navright:hover{
     color: #FB9333;
     font-family: poppinR;
     font-size:16px;
+    margin-bottom: 34px;
 }
 .header-best:hover{
     color: #FFF0DC;
@@ -126,14 +127,53 @@ nav .navright:hover{
 }
 .numbers > p{
     transition: all 500ms;
+    cursor: pointer;
+
 }
 .numbers > p:hover{
 color: #FB9333;
 scale:1.4;
-transition: all 500ms;
 }
 .header-pic{
     height: 819px;
     width: 668px;
     display:flex;
+}
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left-piece{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.why-text{
+    margin-top:120px;
+    display: flex;
+    flex-direction: row;
+    gap:90px;
+    align-items: baseline;
+}
+.big-why{
+    font-family: poppinB;
+    color: black;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+    text-wrap: nowrap;
+}
+#bigwhy{
+    color: #FB9333;
+}
+.lil-why{
+    font-family: poppinR;
+    color: #848484;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
 }
