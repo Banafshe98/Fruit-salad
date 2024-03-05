@@ -182,6 +182,7 @@ scale:1.4;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 66px;
+    margin-bottom: 139px;
 }
 .icon1{
     display: flex;
@@ -236,7 +237,6 @@ text-align: left;
 }
 .learn p{
     display: inline-block;
-    width: ;
 }
 .img{
     width:110px ;
@@ -249,4 +249,95 @@ text-align: left;
 .learn:hover{
     transition: all 500ms;
     gap: 20px;
+}
+.middle-p{
+    display: flex;
+    flex-direction: column;
+}
+.yang-p{
+    font-family: poppinR;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#FB9333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#dis{
+    color: #FB9333;
+    font-family: poppinR;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+.big-p{
+    font-family: poppinR;
+    font-size: 48px;
+    line-height: 48px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+.food-img{
+    display: flex;
+    flex-direction: row;
+    gap:51px;
+    margin-top:70px ;
+    margin-bottom:144px ;
+}
+.img1{
+    position: relative;
+}
+.img1 p{
+    position: absolute;
+    top:407px;
+    bottom: 88px;
+    left:76px;
+    right:76px;
+    font-family:poppinR ;
+    font-size: 24px;
+    color: white;
+    line-height: 24px;
+    text-wrap: nowrap;
+}
+#img-p{
+    position: absolute;
+    top:442px;
+    bottom:50px ;
+    left: 76px;
+    right:76px ;
+    font-family: poppinB;
+    color: #FB9333;
+    font-size: 30px;
+}
+.img2{
+    position: relative;
+}
+.img2 p{
+    position: absolute;
+    top:407px;
+    bottom: 88px;
+    left:76px;
+    right:76px;
+    font-family:poppinR ;
+    font-size: 24px;
+    color: white;
+    line-height: 24px;
+    text-wrap: nowrap;
+}
+.img3{
+    position: relative;
+}
+.img3 p{
+    position: absolute;
+    top:407px;
+    bottom: 88px;
+    left:76px;
+    right:76px;
+    font-family:poppinR ;
+    font-size: 24px;
+    color: white;
+    line-height: 24px;
+    text-wrap: nowrap;
 }
